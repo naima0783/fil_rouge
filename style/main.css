@@ -1,13 +1,19 @@
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding-top: 5px;
-
-    background-color: #70A0AF;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
 }
 
-.block_logo {
+
+footer {
+    background-color: #70A0AF;
+    position:relative;
+    width:100%;
+    bottom: 0; 
+
+}
+
+.block_logo, .logo {
     width: 25px;
     height:25px;
 }
@@ -18,8 +24,21 @@ img {
 }
 
 
-.information_livraison , .rsx{
+.information_livraison, .footer_categorie {
     display: flex;
     flex-direction: row;
+    padding-left: 50px;
 
 }
+
+.rsx   {
+    display: inline;
+
+}
+
+
+
+
+
+
+
