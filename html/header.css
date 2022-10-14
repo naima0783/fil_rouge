@@ -3,9 +3,7 @@ html, body{
 }
 header{
     background-color: #70A0AF;
-    width: 100%;
-    height: 114px;
-    line-height: 114px;
+    width: 100%;    
 }
 h1{
     padding: 0px; margin: 0;
@@ -15,5 +13,8 @@ h1{
     height: 48px;
     color: #fdf0d5;
     margin-left: 37px;
-    vertical-align:middle
+    vertical-align:middle 
+}
+#logoheader{
+    margin-left: 540px;   
 }
