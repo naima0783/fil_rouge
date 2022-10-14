@@ -19,8 +19,9 @@ body {
 
 footer {
     background-color: #70A0AF;
-    position: relative;
+    position: absolute;
     width:100%;
+    bottom: 0px;
 }
 
  .logo{
@@ -49,7 +50,6 @@ img {
 .logo_deseign{
     display: flex;
     flex-direction: row;
-    padding-left: 6px;
 }
 
 
