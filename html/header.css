@@ -2,13 +2,10 @@ html, body{
     margin: 0;padding: 0;
 }
 header{
-    background-color: #70A0AF;
+    background-color:#bc9cb0;
     width: 100%;    
 }
-h1{
-    padding: 0px; margin: 0;
-}
-#iconemenu{
+#icone_menu{
     width: 48px;
     height: 48px;
     color: #fdf0d5;
@@ -16,5 +13,25 @@ h1{
     vertical-align:middle 
 }
 #logoheader{
-    margin-left: 540px;   
+    margin: center;   
+}
+#logo_menu{
+    width: 50px;
+    height: 50px;
+    
+
+}
+.logo_reseaux{
+    height: 20px;
+    margin: center;
+    flex-direction: row-reverse;
+    width: 28.98px;
+    height: 29px;
+    left: 1261.12px;
+    top: 45px;
+
+}
+.menu{
+    display: flex;
+    
 }
