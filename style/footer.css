@@ -1,13 +1,17 @@
 @font-face {
-    font-family: "TsukimiRoundedBold";
+    font-family: "TsukimiBold";
     src: url('../assets/fonts/TSUKIMIROUNDED-BOLD.TTF') format('truetype');
 }
 
 @font-face {
-    font-family: "TsukimiRoundedLight";
+    font-family: "TsukimiLight";
     src: url('../assets/fonts/TsukimiRounded-Light.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: typoRoundLight;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf) format('truetype');
+}
 
 
 body {
@@ -18,7 +22,7 @@ body {
 
 
 footer {
-    background-color: #70A0AF;
+    background-color: #BC9CB0;
     position: absolute;
     width:100%;
     bottom: 0px;
@@ -71,7 +75,7 @@ img {
 }
 
 p{
-        font-family: TsukimiRoundedLight ;
+        font-family: typoRoundLight ;
         font-size: 12px;
         font-weight: 300;
         line-height: 14px;
@@ -84,10 +88,14 @@ p{
     padding-right: 5% ;
 }
 
-
-
-
-
+@media screen and (max-width: 640px) {
+    footer{
+        font-size: smaller;
+    }
+#logo_footer{
+    visibility: hidden;
+}
+}
 
 
 
