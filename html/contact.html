@@ -21,38 +21,48 @@
             </div>
 
             <div class=" commander commander_etape1">
-                <div class="img_etape1">
+                <div class="logo_etape_commande img_etape1">
                     <img src="../images/me_contacter.png" alt="Me contacter via le formulaire" class="logo_commande">
                 </div>
                 <div>
                     <h4>Vous me contactez</h4>
+                    <div><p>D’abord, prenez contact avec moi, tout simplement via le formulaire ci-dessous ou par courriel.</p></div>
                 </div>
             </div>
 
             <div class=" commander commander_etape2">
-                <div class="img_etape2">
-                    <img src="" alt="">
+                <div class="logo_etape_commande img_etape2">
+                    <img src="../images/realisation.png" alt="Nous nous concertons">
                 </div>
                 <div>
                     <h4>Nous nous entretenons</h4>
+                    <div><p>Je reviendrais vers vous avec des exemples de ce que je pourrais faire, le nombre de vêtements dont j'ai besoin, les
+                    matières idéales, ainsi qu’un devis et un délai.</p></div>
                 </div>
             </div>
 
             <div class=" commander commander_etape3">
-                <div class="img_etape3">
+                <div class="logo_etape_commande img_etape3">
                     <img src="../images/envoie_tissu.jpg" alt="Envoyez moi votre tissu" class="logo_commande">
                 </div>
+
                 <div>
                     <h4>Vous m'envoyez votre tissu</h4>
+                    <div>
+                        <p>Vous m’envoyez les vêtements à l'adresse que je vous aurais communiqué</p>
+                    </div>
                 </div>
             </div>
 
             <div class=" commander commander_etape4">
-                <div class="img_etape4">
+                <div class="logo_etape_commande img_etape4">
                     <img src="" alt="">
                 </div>
                 <div>
                     <h4>Je vous envoie le produits fini</h4>
+                    <div>
+                        <p>Je vous envoie le produits fini à l'adresse que vous devrez indiquer sur votre espace compte. </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -65,48 +75,62 @@
             <form action="" method="get">
 
                 <div class="contact_nom">
-                    <label for="nom">Nom:</label>
+                    <label for="nom">Nom :</label>
                     <div>
                         <input required id="nom" type="text" placeholder="nom de famille" name="nom">
                     </div>
                 </div>
 
                 <div class="contact_prenom">
-                    <label for="prenom">Prénom</label>
+                    <label for="prenom">Prénom :</label>
                     <div>
                         <input id="prenom" type="text" placeholder="prenom" required name="prenom">
                     </div>
                 </div>
 
                 <div class="mail_contact">
-                    <label for="mail">Votre e-mail</label>
+                    <label for="mail">Votre e-mail :</label>
                     <div>
                         <input type="text" id="mail" placeholder="Votre mail" required name="mail">
                     </div>
                 </div>
 
                 <div class="objcet_demande_contact">
-                    <label for="object_contact">Object de votre demande</label>
+                    <label for="object_contact">Object de votre demande :</label>
                     <div>
                         <input type="text" id="object_demande" required name="object">
                     </div>
                 </div>
 
                 <div class="message_contact">
-                    <label for="message">Message</label>
+                    <label for="message">Message :</label>
                     <div>
-                        <input type="text" id="message" required name="message">
+                        <textarea type="text" id="message" required name="message"></textarea>
                     </div>
                 </div>
 
                 <div class="boutton_envoie">
-                    <input type="submit" value="Envoi">
+                    <input type="submit" value="Envoi" class="submit" href="#popup1">
                 </div>
 
             </form>
 
         </section>
     </div>
+<!-- 
+    <div id="modal" class="pop-up_message_envoyer">
+        <div class="mask popup">
+            <a class="close" href="#">&times;</a> 
+            <div class="mess_envoyer_content container">
+                <h4>Message envoyer</h4>
+                <p>Merci pour votre inscription.
+                </p>
+                <p>Margaux reviendra vers vous sous 48H.
+                </p>
+            </div>
+        </div>
+        
+    </div> -->
 
     <footer class="footer_categorie">
     
@@ -126,7 +150,7 @@
             </div>
         </div>
     
-        <div id="remise_produits_footer" class="block_footer">
+        <div id="remise_produits_footer" class="block_footer ">
     
             <div id="main_propre" class="information_livraison">
                 <div id="logo_livraison_main" class="block_logo">
@@ -184,4 +208,9 @@
     
     </footer>
 </body>
+
+<!-- <script>$(".bouton").click(function () {
+        $("#modal .message").html("Contenu de ma modal");
+        $("#modal").addClass("open");
+    });</script> -->
 </html>

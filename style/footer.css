@@ -23,7 +23,8 @@ body {
 
 footer {
     background-color: #BC9CB0;
-    position: absolute;
+    margin-top: 5px;
+    position: relative;
     width:100%;
     bottom: 0px;
     display: flex ;
