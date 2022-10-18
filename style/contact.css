@@ -3,13 +3,14 @@
     src: url(../assets/fonts/Typo_Round_Light_Demo.otf) format('truetype');
 }
 
-body {
+.body {
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: #f8f0f0;
     display: flex ;
     flex-direction: row;
+    font-family: typoRoundLight;
 }
 
 h2{
@@ -21,7 +22,7 @@ section{
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 
     
 }
@@ -40,7 +41,7 @@ section.formulaire_contact{
     
 }
 
-img{
+div.body>img{
     width: 100% ;
     height: 100%;
 }

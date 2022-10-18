@@ -26,6 +26,10 @@ footer {
     position: absolute;
     width:100%;
     bottom: 0px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
  .logo{
@@ -44,12 +48,12 @@ img {
     height: auto;
 }
 
-.information_livraison, .footer_categorie , .cgu-mail {
+/* .information_livraison, .footer_categorie , .cgu-mail {
     display: flex;
     flex-direction: row;
     padding-left: 50px;
 
-}
+} */
 
 .logo_deseign{
     display: flex;
@@ -83,10 +87,17 @@ p{
         text-align: center;
 }
 
-#remise_produits {
+#remise_produits_footer {
     border-right: solid;
     padding-right: 5% ;
 }
+
+#remise_produits_footer div, .cgu-mail{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 @media screen and (max-width: 640px) {
     footer{
