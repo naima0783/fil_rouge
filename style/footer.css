@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "TsukimiBold";
+    src: url('../assets/fonts/TSUKIMIROUNDED-BOLD.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: "TsukimiLight";
+    src: url('../assets/fonts/TsukimiRounded-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: typoRoundLight;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf) format('truetype');
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+footer {
+    background-color: #BC9CB0;
+    margin-top: 5px;
+    position: relative;
+    width:100%;
+    bottom: 0px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+ .logo{
+    height: 27px;
+    width: 27px;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo_principal{
+    height: auto;
+}
+
+/* .information_livraison, .footer_categorie , .cgu-mail {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+
+} */
+
+.logo_deseign{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.rsx   {
+    display: inline;
+
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+
+.block_footer , a{
+    text-align: center;
+    color: antiquewhite;
+}
+
+p{
+        font-family: typoRoundLight ;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+
+#remise_produits_footer {
+    border-right: solid;
+    padding-right: 5% ;
+}
+
+#remise_produits_footer div, .cgu-mail{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    footer{
+        font-size: smaller;
+    }
+#logo_footer{
+    visibility: hidden;
+}
+}
+
+
+
