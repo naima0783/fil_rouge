@@ -15,9 +15,9 @@ header {
 }
 .overlay{
     display:flex; 
-    margin-left: 37.4%;
+    margin-left: 5%;
     color: #e1d5dd;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 #suivez-moi{
@@ -29,7 +29,11 @@ header {
     filter: invert(100%) sepia(15%) saturate(1850%) hue-rotate(317deg) brightness(100%) contrast(99%);  
     padding: 0;
     align-items: center;
-    margin-right: 5px;   
+    margin-right: 2px;   
+}
+.logo_reseaux_hd:hover{
+    box-shadow: 1px 1px 10px rgb(40, 58, 40);    
+    border-radius: 50%
 }
 .menu_hd{
     width: 100%;
@@ -41,8 +45,10 @@ header {
     border: 1px solid #5a2328;
     border-left: none;
     border-right: none;
-    border-top: none;
-  
+    border-top: none; 
+}
+div>nav>a:hover{ 
+    filter: drop-shadow(1px 1px 1px #b89e9e);
 }
 nav>a:nth-child(2){
     margin: 0% 6%
