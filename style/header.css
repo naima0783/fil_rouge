@@ -1,0 +1,53 @@
+@font-face {
+    font-family:typo_round;
+    src: url(../asset/Typo_Round_Light_Demo.otf);
+}
+header {
+    width: 100%;    
+    font-family:typo_round;  
+}
+.overlay{
+    display:flex; 
+    color: #e1d5dd;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+    background-image: linear-gradient( 135deg, #e1d5dd 10%, #bc9cb0 50%);	
+}
+#suivez-moi{
+    text-align: center;
+    margin-bottom: 2%;  
+}
+.logo_reseaux_hd{
+    width: 55px;
+    filter: invert(100%) sepia(15%) saturate(1850%) hue-rotate(317deg) brightness(100%) contrast(99%);  
+    padding: 0;
+    align-items: center;
+    margin-right: 2px;   
+}
+.logo_reseaux_hd:hover{
+    box-shadow: 1px 1px 10px rgb(40, 58, 40);    
+    border-radius: 50%
+}
+.menu_hd{
+    width: 100%;
+    display:flex;
+    justify-content:center; 
+    font-size: 32px;
+    font-weight: bolder;
+    margin-top: 1.3%; 
+    border: 1px solid #5a2328;
+    border-left: none;
+    border-right: none;
+    border-top: none; 
+}
+div>nav>a:hover{ 
+    filter: drop-shadow(1px 1px 1px #b89e9e);
+}
+nav>a:nth-child(2){
+    margin: 0% 6%
+}
+.menu_hd>a{
+    color:#5a2328;
+    text-decoration: none;  
+}

@@ -1,0 +1,136 @@
+@font-face {
+    font-family: typoRoundLight;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf) format('truetype');
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f8f0f0;
+    display: flex ;
+    flex-direction: row;
+    font-family: typoRoundLight;
+}
+
+h2{
+    text-align: center;
+}
+section{
+    padding: 0%;
+    margin: 0%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.information_commande{
+    border-right : rgb(151, 135, 135) solid 2px ;
+}
+
+
+.commander{
+    display: flex;
+    align-items: center;
+}
+
+
+
+input{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 30px;
+    border-radius : 15px;
+    border: 5px;
+}
+
+.boutton_envoie{
+    display: flex;
+    justify-content: center;
+}
+input.submit{
+    display: inline-block ;
+    text-align: center;
+    width: auto; 
+    margin-top: 15px;
+    background-color: #BC9CB0;
+    padding: 0px 44px;
+
+    
+}
+
+.submit:hover{
+    background-color : #FFFFFF ;
+    border: black solid 3px;
+}
+
+#message{
+    background-color:antiquewhite;
+    width: 500px;
+    height: 100px;
+    border-radius: 3px;
+    
+}
+
+label{
+    display: block;
+    padding-top : 10px;
+    padding-left: 8px;
+
+}
+
+.logo_etape_commande{
+    width: 15% ;
+    height: 25%;
+    filter: invert(75%) sepia(24%) saturate(260%) hue-rotate(270deg) brightness(86%) contrast(84%);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/*   
+#modal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#modal.open {
+    display: block;
+}
+
+
+#modal .mask {
+    background: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#modal .container {
+    position: relative;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 300px;
+    height: auto;
+    min-height: 50px;
+} */
