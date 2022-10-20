@@ -1,18 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
 @font-face {
     font-family:typo_round;
-    src: url(../asset/Typo_Round_Light_Demo.otf);
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
 }
 header {
-    width: 100%;    
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient( 135deg, #e1d5dd 10%, #bc9cb0 50%);	
     font-family:typo_round;  
 }
 .overlay{
     display:flex; 
+    margin-left: 5%;
     color: #e1d5dd;
     justify-content: space-around;
     align-items: center;
-    height: 130px;
-    background-image: linear-gradient( 135deg, #e1d5dd 10%, #bc9cb0 50%);	
+}
+#logo_compte_hd{
+    margin-top:15px;
 }
 #suivez-moi{
     text-align: center;
@@ -26,7 +35,7 @@ header {
     margin-right: 2px;   
 }
 .logo_reseaux_hd:hover{
-    box-shadow: 1px 1px 10px rgb(40, 58, 40);    
+    box-shadow: 2px 5px 5px rgb(0, 0, 0);    
     border-radius: 50%
 }
 .menu_hd{
