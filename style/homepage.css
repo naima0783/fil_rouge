@@ -3,11 +3,6 @@
     src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
 }
 
-<<<<<<< HEAD
-body {
-    margin: 0;
-}
-
 #firstcommentaires {
     display: flex;
     flex-direction: row;
@@ -37,7 +32,6 @@ body {
 #commentaires {
     background-color: #BC9CB0;
     margin: 0;
-=======
 @font-face {
     font-family: tsukimilight;
     src: url(../assets/fonts/TsukimiRounded-Light.ttf);
@@ -70,5 +64,4 @@ body {
     background-image: url(../Logo/Logo\ header.png);
     background-repeat: no-repeat;
     background-position: center;
->>>>>>> main
 }
