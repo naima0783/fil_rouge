@@ -3,10 +3,6 @@
     src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
 }
 
-body {
-    margin: 0;
-}
-
 #firstcommentaires {
     display: flex;
     flex-direction: row;
