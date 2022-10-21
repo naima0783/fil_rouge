@@ -3,6 +3,35 @@
     src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
 }
 
+#firstcommentaires {
+    display: flex;
+    flex-direction: row;
+    gap: 15%
+}
+
+#secondcommentaires {
+    display: flex;
+    flex-direction: row;
+    gap: 15%
+
+}
+
+.firstphoto {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.comm {
+    font-size: 16px;
+    font-family: typo;
+    max-width: 40ch;
+}
+#commentaires {
+    background-color: #BC9CB0;
+    margin: 0;
 @font-face {
     font-family: tsukimilight;
     src: url(../assets/fonts/TsukimiRounded-Light.ttf);
