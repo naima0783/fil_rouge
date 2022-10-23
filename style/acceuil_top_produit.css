@@ -1,0 +1,49 @@
+@font-face {
+    font-family: typo;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
+}
+
+#produit_top_ventes{
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#produit_top_ventes div{
+    margin: 0%;
+        padding: 0%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.top_img{
+    height: auto;
+    width: 70%;
+    margin: 0px;
+}
+
+.top_produit_titre{
+    text-align: center;
+    
+}
+
+
+
+.top_produit_titre h4{
+    background-color :#BC9CB0;
+    display: inline;
+    padding: 2%;
+    border-radius : 25px ;
+    
+}
+
+#produit_top_ventes a {
+    text-decoration: none;
+    color : black ;
+}

@@ -44,10 +44,12 @@ padding: 17%;
 }
 .acceuil2_block1{
     width: 40%;
+    padding-left: 5%;
 }
 
 .acceuil2_block2{
     width: 60%;
+    padding-right: 5%;
 }
 
 
@@ -61,16 +63,20 @@ h3.block1_accueil{
     padding-left: 10%;
     padding-right: 10%;
     
-
 }
+
+/* @keyframes .block1_tiitre_mescreation:hover{
+    animation:  1s ease-in 1s infinite reverse both running slidein;
+} */
 
 .acceuil2_block2_images{
     display: flex;
 
 }
    
-.acceuil_block1_lien_contact a {
+.acceuil_block1_lien_contact a , #produit_top_ventes a{
     color : rgb(0, 0, 0);
+    text-decoration: none;
 
     
 }
@@ -98,3 +104,7 @@ h3.block1_accueil{
     padding: 10px;
 }
 
+section a:hover {
+    filter: drop-shadow(1px 1px 1px #b89e9e);
+    overflow: hidden;
+}
