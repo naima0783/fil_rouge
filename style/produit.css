@@ -1,0 +1,11 @@
+@font-face {
+    font-family: typo;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
+}
+
+
+
+
+#pageproduits_bg {
+    background-color : #BC9CB0 ;
+}
