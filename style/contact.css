@@ -5,7 +5,8 @@
 
 .body {
     margin: 0;
-    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: 100%;
     background-color: #f8f0f0;
     display: flex ;
@@ -32,17 +33,21 @@ section{
 }
 
 
-.commander{
-    display: flex;
-    align-items: center;
+.commander {
+    display : flex;
+    
+
 }
 
+.commander div {
+    justify-content: space-around;
+}
 
 
 input{
     background-color: antiquewhite;
-    width: 500px;
-    height: 30px;
+    width: 100%;
+    height: 10%;
     border-radius : 15px;
     border: 5px;
 }
@@ -88,7 +93,7 @@ label{
     filter: invert(75%) sepia(24%) saturate(260%) hue-rotate(270deg) brightness(86%) contrast(84%);
 }
 
-img{
+.logo_etape_commande img{
     width: 100%;
     height: 100%;
 }

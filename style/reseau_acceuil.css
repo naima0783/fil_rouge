@@ -1,0 +1,25 @@
+@font-face {
+    font-family: typo;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
+}
+
+#fil_reseau{
+    display: flex;
+    justify-content: space-around;
+    align-items :center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.frame_fb_insta div {
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.frame_fb_insta p {
+    font-size: 17px;
+}
+

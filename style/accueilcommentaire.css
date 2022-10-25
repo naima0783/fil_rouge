@@ -1,0 +1,37 @@
+@font-face {
+    font-family: typo;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
+}
+
+#commentaires {
+    display: flex ;
+    background-color : #BC9CB0 ;
+}
+
+/* #commentaires img{
+    width: 100%;
+    height: 100%;
+} */
+
+.firstphoto{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#commentaires p {
+    padding: 4%;
+    font-family: typo;
+}
+
+#firstcommentaires{
+    padding-left: 5%;
+}
+
+#secondcommentaires{
+    padding-right: 5%;
+}
