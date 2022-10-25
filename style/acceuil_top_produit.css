@@ -23,21 +23,14 @@
 }
 
 .top_img{
-    height: auto;
     width: 70%;
-    margin: 0px;
-}
-
-.top_produit_titre{
-    text-align: center;
-    
+    align-items:center
 }
 
 
 
 .top_produit_titre h4{
     background-color :#BC9CB0;
-    display: inline;
     padding: 2%;
     border-radius : 25px ;
     
@@ -46,4 +39,9 @@
 #produit_top_ventes a {
     text-decoration: none;
     color : black ;
+}
+
+.top_dodo, .top_acc, .top_autre, .top_vet{
+    width: 25%;
+    height: 10%;
 }
