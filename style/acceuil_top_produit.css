@@ -23,8 +23,7 @@
 }
 
 .top_img{
-    width: 70%;
-    align-items:center
+    text-align:center;
 }
 
 
@@ -43,5 +42,5 @@
 
 .top_dodo, .top_acc, .top_autre, .top_vet{
     width: 25%;
-    height: 10%;
+    height: 25%;
 }
