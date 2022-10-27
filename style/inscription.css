@@ -1,0 +1,10 @@
+@font-face {
+    font-family: typo;
+    src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
+}
+
+section{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color : #f8f0f0 ;
+}

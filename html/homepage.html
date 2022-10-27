@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="">
-    <title>les Bobines De Biche</title>
+    <title>Les Bobines De Biche</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 
 
 </head>
-<body>
+<body >
     <header>
+
         <div class="overlay">
             <div>
-                <a href=""><img src="../Photo/logo_compte_2.png" id="logo_compte_hd"  alt="hd_logo"class="logo_reseaux_hd"a=""></a>
+                <a href="" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="../Photo/logo_compte_2.png" id="logo_compte_hd"  alt="hd_logo"class="logo_reseaux_hd"a=""></a>
                 
             </div>
             
             <img src="../Photo/Logo header.png"         alt="bobinesdebiches"
                 id="logo-bobines_hd">
         
-            <div><p id="suivez-moi">Suivez-moi </p>
+            <div><p id="suivez-moi">Suivez-Nous </p>
                 <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr"
                     target="_blank">
                     <img src="../Logo/instagram.png"       alt="Instagram"
@@ -36,6 +43,39 @@
                     ></a>
             </div>        
         </div>
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-5"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" id="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Connexion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <form action="get">
+                            <div class="form-group ">
+                                <label for="inputEmail4">Votre email :</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group ">
+                                <label for="inputPassword4">Mot de passe :</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                            <div>
+                                <label for="Inscription">Pas de compte ? <a href="inscription.html">Inscrivez-vous !</a></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer" id="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Connexion</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div>
             <nav role="navigation" class="menu_hd"> 
                 <a href="homepage.html">Accueil</a>
@@ -44,6 +84,7 @@
             </nav>
         </div> 
     </header>
+
 
    
     <section id="acceuil_story">
@@ -54,16 +95,12 @@
 
           <div class="story_text">
               <p>Bonjour à tous et à toutes, moi c'est Margaux ! </p>
-
               <p>  Je me suis lancée dans la couture en 2016, et depuis, ma passion ne s’est jamais arrêtée. 
                 Aujourd'hui, j'ouvre mon entreprise de créations d'accessoires souvenirs (doudou, écharpe, coussin...) créés spécifiquement pour les clients avec les vêtements de leurs défunts. </p> 
-                
-                <p>J'ai voulu développer cette idée après la perte de mon papa, en 2020. J’avais envie de faire quelque chose de beau, de lumineux avec ses vêtements. J’ai fait plusieurs objets et les ai offert à celles et ceux qui, comme moi, avaient de la peine. Voir les sourires sur les visages de ma famille en découvrant leurs souvenirs était ce qui m’a vraiment convaincu. 
+               <p>J'ai voulu développer cette idée après la perte de mon papa, en 2020. J’avais envie de faire quelque chose de beau, de lumineux avec ses vêtements. J’ai fait plusieurs objets et les ai offert à celles et ceux qui, comme moi, avaient de la peine. Voir les sourires sur les visages de ma famille en découvrant leurs souvenirs était ce qui m’a vraiment convaincu. 
                 </p>
                 <p>Pour me connaître un peu mieux… </p>
-
                 <p>  Dans la vie, je suis animatrice périscolaire, mais la couture prend une bonne partie de mon temps… et de ma maison ! Ce sont souvent les gens qui m’inspirent. J’ai vraiment commencé à la naissance de mon filleul en 2016 en créant des accessoires de naissance (sac à langer, bavoirs, gigoteuse, cape de bain, nid d’ange, etc.). Dans le cadre de mon travail, je m’amusais aussi à fabriquer des tapis d’éveil pour les enfants de mon service, sur les thématiques de nos ateliers de lecture. </p>
-                  
                 <p>  À partir de 2019, j’ai commencé à coudre mon dressing à partir d’une box de couture (craftine box). Quel plaisir de porter des vêtements uniques ! Quand j’y pense, je voyais déjà ma maman coudre mes déguisements ou me tricoter des pulls. Ça m’a toujours attirée, et je suis fière de mon parcours d’autodidacte passionnée. Finalement, la couture, pour moi, c’est un peu une affaire de famille. 
                   </p>
                 
@@ -74,8 +111,9 @@
           <img src="../Logo/Logo_couverture_dézoom.png" alt="">
       </div>
   </section>
-   
+            <h3 class=" animate__animated animate__rollIn  titre_retour">Nos retours</h3>
     <section id="commentaires">
+        
         <div id="firstcommentaires">
             <div class="firstphoto">
                 <img src="../photo/prod 1.png" alt="" >
@@ -86,7 +124,7 @@
                 </p>
             </div>
     
-            <div class="firstphoto">
+            <div class="firstphoto second">
                 <img src="../photo/prod 2.png" alt="" >
                 <p class="comm">  
                     <b>Anne-Laure</b> <br> 
@@ -116,10 +154,45 @@
             </div>
         </div>
     </section>
+
+    <section id="fil_reseau" class="p-5">
+        <div class="frame_insta">
+            <iframe src="http://instagram.com/p/a1wDZKopa2/embed" width="320" height="400" frameborder="0" scrolling="no"
+                allowtransparency="true">
+            </iframe>
+        </div>
+    
+        <div class="frame_fb_insta">
+            <div>
+                <div>
+                    <img src="../Logo/Logo_Accueil/arrow_insta‌.png" alt="">
+                </div>
+                <p>Suivez moi sur Instagram pour plus d’information quotidien</p>
+            </div>
+    
+            <div>
+                <p>Suivez moi sur Facebook pour plus d’information quotidien</p>
+                <div>
+                    <img src="../Logo/Logo_Accueil/arro_fb.png" alt="">
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="frame_fb">
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLaLuckLille&tabs=timeline&width=230&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                width="230" height="300" styles="border:none;overflow:hidden" scrolling="no" frameBorder="0"
+                allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+            </iframe>
+        </div>
+    </section>
+
+
 <footer class="footer_categorie">
     <div id="reseaux_footer" class="block_footer">
         <div id="Suivez_moi">
-                <p>Suivez-moi  !</p>
+                <p>Suivez-Nous  !</p>
         </div>
     
         <div id="insta" class="rsx">
@@ -190,6 +263,9 @@
         </div>
     
     </footer>
-</head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
 </html>
