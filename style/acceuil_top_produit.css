@@ -44,3 +44,7 @@
     width: 25%;
     height: 25%;
 }
+
+.story_text p{
+    line-height: 1.7 ;
+}
