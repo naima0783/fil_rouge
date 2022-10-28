@@ -80,6 +80,25 @@ nav>a:nth-child(2) {
     background-color : #bc9cb0 ;
 }
 
+
+/* fin modal */
+
+/* Section acceuil */
+
+
+.images_home_block{
+    width: 50%;
+}
+
+.image_home{
+    width: 80px;
+    height: 50px;
+}
+
+
+
+
+
 /* section story */
 #acceuil_story{
     display: flex;
@@ -250,15 +269,28 @@ footer {
     .story_biche_img{
        visibility: hidden;
                 }
+
+        #acceuil_story{
+            display: block;
+            padding: 0%;
+        }
     
-    .story_text{
+    .story_qui_suis_je{
         width: 100%;
+        padding: 0%;
         
     }
-               
-    
-    #commentaire .second{
-        visibility: hidden;    }
+      
+    #secondcommentaires{
+    display: none;    }
 
+}
+
+.story_titre h3{
+    font-size: 20px;
+}
+
+.frame_insta{
+    display: none;
 }
 
