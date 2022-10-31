@@ -16,215 +16,156 @@
 </head>
 <body>
     <header>
+
         <div class="overlay">
             <div>
-                <a href=""><img src="../Photo/logo_compte_2.png" id="logo_compte_hd" idalt="Instagram"
-                        class="logo_reseaux_hd" a="https://www.instagram.com/lesbobinesdebiche/?hl=fr"></a>
-    
+                <a href="" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="../Photo/logo_compte_2.png" id="logo_compte_hd"  alt="hd_logo"class="logo_reseaux_hd"a=""></a>
+                
             </div>
-    
-            <img src="../Photo/Logo header.png" alt="bobinesdebiches" id="logo-bobines_hd">
-    
-            <div>
-                <p id="suivez-moi">Suivez-moi </p>
-                <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr" target="_blank">
-                    <img src="../Logo/instagram.png" alt="Instagram" class="logo_reseaux_hd"
-                        a="https://www.instagram.com/lesbobinesdebiche/?hl=fr"></a>
-                <a href="https://www.facebook.com/profile.php?id=100086089291571" target="_blank">
-                    <img src="../Logo/facebook.png" alt="facebook" class="logo_reseaux_hd"></a>
+            
+            <img src="../Photo/Logo header.png"         alt="bobinesdebiches"
+                id="logo-bobines_hd">
+        
+            <div><p id="suivez-moi">Suivez-Nous </p>
+                <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr"
+                    target="_blank">
+                    <img src="../Logo/instagram.png"       alt="Instagram"
+                    class="logo_reseaux_hd"
+                    a="https://www.instagram.com/lesbobinesdebiche/?hl=fr"></a>
+                <a href="https://www.facebook.com/profile.php?id=100086089291571"
+                    target="_blank">
+                    <img 
+                    src="../Logo/facebook.png"
+                    alt="facebook"
+                    class="logo_reseaux_hd"
+                    ></a>
+            </div>        
+        </div>
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-5"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" id="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Connexion</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <form action="get">
+                            <div class="form-group ">
+                                <label for="inputEmail4">Votre email :</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group ">
+                                <label for="inputPassword4">Mot de passe :</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                            <div>
+                                <label for="Inscription">Pas de compte ? <a href="inscription.html">Inscrivez-vous !</a></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer" id="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Connexion</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="nav_header">
-            <nav role="navigation" class="menu_hd">
+
+        
+        <div>
+            <nav role="navigation" class="menu_hd"> 
                 <a href="homepage.html">Accueil</a>
                 <a href="produits.html">Créations</a>
                 <a href="contact.html">Contact</a>
             </nav>
-        </div>
+        </div> 
     </header>
 
+
     <section >
-        <div class=" px-4 px-lg-5 mt-5 " id="pageproduits_bg">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">top vente
-                        </div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="../Photo/Doudou (14).jpeg" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Doudou Ours</h5>
-                                <!-- Product reviews-->
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    
-                                </div>
-                                <!-- Product price-->
-                                <!-- <span class="text-muted text-decoration-line-through">$20.00</span>
-                                $18.00 -->
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to fav</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
-                        </div> -->
-                        <!-- Product image-->
-                        <img class="card-img-top" src="../Photo/Doudou (12).jpeg" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Doudou Biche</h5>
-                                <!-- Product price-->
-                                <!-- <span class="text-muted text-decoration-line-through">$50.00</span>
-                                $25.00 -->
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to fav</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Product image-->
-                        <img class="card-img-top" src="../Photo/Doudou (5).jpeg" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Doudou Baleine</h5>
-                                <!-- Product reviews-->
-                                <div class="d-flex justify-content-center small text-warning mb-2">
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                    <div class="bi-star-fill"></div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to fav</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                    <div class="card h-100">
-                        <!-- Sale badge-->
-                        <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Top vente</div>
-                        <!-- Product image-->
-                        <img class="card-img-top" src="../Photo/Doudou (10).jpeg" alt="..." />
-                        <!-- Product details-->
-                        <div class="card-body p-4">
-                            <div class="text-center">
-                                <!-- Product name-->
-                                <h5 class="fw-bolder">Doudou croco</h5>
-                                <!-- Product price-->
-                                <!-- <span class="text-muted text-decoration-line-through">$50.00</span>
-                                $25.00 -->
-                            </div>
-                        </div>
-                        <!-- Product actions-->
-                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to fav</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
     </section>
 
  
     <footer class="footer_categorie">
-    
         <div id="reseaux_footer" class="block_footer">
             <div id="Suivez_moi">
-                <p>Suivez-moi</p>
+                    <p>Suivez-Nous  !</p>
             </div>
-    
+        
             <div id="insta" class="rsx">
-                <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr"> <img src="../images/insta.png"
-                        alt="Suivez Nous" class="logo"></a>
+                    <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr"> <img src="../images/insta.png"
+                            alt="Suivez Nous" class="logo"></a>
             </div>
-    
-            <div id="fb" class="rsx">
-                <a href="https://www.facebook.com/creationmellemgx"> <img src="../images/fb.png" alt="Suivez Nous"
-                        class="logo"></a>
-            </div>
-        </div>
-    
-        <div id="remise_produits_footer" class="block_footer ">
-    
-            <div id="main_propre" class="information_livraison">
-                <div id="logo_livraison_main" class="block_logo">
-                    <img src="../images/livraison_main.png" alt="Livraison en main propre" class="logo">
-                </div>
-                <div id="livraison_main" class="livraison1">
-                    <p>En main propre dans le métropôle Lilloise</p>
+        
+                <div id="fb" class="rsx">
+                    <a href="https://www.facebook.com/creationmellemgx"> <img src="../images/fb.png" alt="Suivez Nous"
+                            class="logo"></a>
                 </div>
             </div>
-    
-            <div id="livraison" class="information_livraison">
-                <div id="logo_livraison" class="block_logo"><img src="../images/livraison.png"
-                        alt="Livraison sur toute la France" class="logo"></div>
-    
-                <div id="livraison" class="livraison2">
-                    <p>Livraison possible en France</p>
+        
+            <div id="remise_produits_footer" class="block_footer ">
+        
+                <div id="main_propre" class="information_livraison">
+                    <div id="logo_livraison_main" class="block_logo">
+                        <img src="../images/livraison_main.png" alt="Livraison en main propre" class="logo">
+                    </div>
+                    <div id="livraison_main" class="livraison1">
+                        <p>En main propre dans le métropôle Lilloise</p>
+                    </div>
                 </div>
-    
-            </div>
-    
-        </div>
-    
-        <div id="information_footer" class="block_footer">
-    
-            <div id="cgu_footer" class="cgu-mail">
-                <div id="logo_cgu" class="block_logo">
-                    <img src="../images/cgu.png" alt="Condition d'utilisation" class="logo">
+        
+                <div id="livraison" class="information_livraison">
+                    <div id="logo_livraison" class="block_logo"><img src="../images/livraison.png"
+                            alt="Livraison sur toute la France" class="logo"></div>
+        
+                    <div id="livraison" class="livraison2">
+                        <p>Livraison possible en France</p>
+                    </div>
+        
                 </div>
-                <div id="cgu">
-                    <p> <a href="cgu.html">Mentions légales et politique de confidentialité</p></a>
+        
+            </div>
+        
+            <div id="information_footer" class="block_footer">
+        
+                <div id="cgu_footer" class="cgu-mail">
+                    <div id="logo_cgu" class="block_logo">
+                        <img src="../images/cgu.png" alt="Condition d'utilisation" class="logo">
+                    </div>
+                    <div id="cgu">
+                        <p> <a href="cgu.html">Mentions légales et politique de confidentialité</p></a>
+                    </div>
                 </div>
-            </div>
-    
-            <div id="mail_footer" class="cgu-mail">
-                <div id="logo_mail" class="block_logo">
-                    <img src="../images/mail.png" class="logo">
+        
+                <div id="mail_footer" class="cgu-mail">
+                    <div id="logo_mail" class="block_logo">
+                        <img src="../images/mail.png" class="logo">
+                    </div>
+                    <div id="mail">
+                        <p> Lesbobinesdebiche@gmail.fr</p>
+                    </div>
                 </div>
-                <div id="mail">
-                    <p> Lesbobinesdebiche@gmail.fr</p>
+        
+            </div>
+        
+            <div id="logo_footer" class="block_footer logo_deseign align-center" media="screen and (max-width: 640px)">
+                <div id="footer_deseign_img" class="logo_deseign">
+                    <img src="../images/logo.png" alt="Les bobines de biches" class="logo_principal">
                 </div>
+        
+                <div id="footer_deseign_" class="logo_deseign">
+                    <p>Logo design By Paul Landuyt</p>
+                </div>
+        
             </div>
-    
-        </div>
-    
-        <div id="logo_footer" class="block_footer logo_deseign align-center" media="screen and (max-width: 640px)">
-            <div id="footer_deseign_img" class="logo_deseign">
-                <img src="../images/logo.png" alt="Les bobines de biches" class="logo_principal">
-            </div>
-    
-            <div id="footer_deseign_" class="logo_deseign">
-                <p>Logo design By Paul Landuyt</p>
-            </div>
-    
-        </div>
-    
-    </footer>
+        
+        </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
