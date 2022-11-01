@@ -86,14 +86,20 @@ nav>a:nth-child(2) {
 /* Section acceuil */
 
 
-.images_home_block{
-    width: 50%;
-}
+
 
 .image_home{
     width: 80px;
     height: 50px;
 }
+
+.boutton-contactez-moi{
+    color : antiquewhite ;
+    background-color : #70A0AF ;
+    border-radius : 25px ;
+
+}
+
 
 
 
@@ -140,7 +146,7 @@ nav>a:nth-child(2) {
     width: 100%;
     height: 100%;
 }
-/* Fin section commentaire */
+/* Fin section story */
 
 /* Section Commentaire*/
 
@@ -221,10 +227,12 @@ footer {
     align-items: center;
 }
 
-.block_footer , a{
+.block_footer , footer a{
     text-align: center;
     color: antiquewhite;
 }
+
+
 
 
 #remise_produits_footer {
@@ -284,7 +292,7 @@ footer {
     #secondcommentaires{
     display: none;    }
 
-}
+
 
 .story_titre h3{
     font-size: 20px;
@@ -293,4 +301,4 @@ footer {
 .frame_insta{
     display: none;
 }
-
+}
