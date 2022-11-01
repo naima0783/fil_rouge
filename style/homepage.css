@@ -76,7 +76,7 @@ nav>a:nth-child(2) {
 
 /* Modal */
 
-#modal-header, #modal-footer{
+#modal-header, #modal-footer {
     background-color : #bc9cb0 ;
 }
 
@@ -85,9 +85,20 @@ nav>a:nth-child(2) {
 
 /* Section acceuil */
 
+#titre_creation-acceuil{
+    background-color :#70A0AF ;
+    font-size: 40px;
+        border-radius: 25px;
+        font-family: typo;
+        
+        
+}
 
-
-
+.photo_margaux{
+    padding-left: 9%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
 .image_home{
     width: 80px;
     height: 50px;
