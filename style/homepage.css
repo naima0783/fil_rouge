@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: typo ;
 }
 
 /* header */
@@ -72,6 +73,17 @@ nav>a:nth-child(2) {
     color: #5a2328;
     text-decoration: none;
 }
+
+.sticky {
+    position : fixed;
+    top: 0;
+    width: 100%;
+    background-color :#bc9cb0 ;
+}
+
+
+
+
 /*Fin Header*/
 
 /* Modal */
@@ -94,6 +106,8 @@ nav>a:nth-child(2) {
         
 }
 
+
+
 .photo_margaux{
     padding-left: 9%;
     padding-right: 5%;
@@ -104,15 +118,22 @@ nav>a:nth-child(2) {
     height: 50px;
 }
 
+.boutton-contactez-moi:hover{
+        color: antiquewhite;
+
+}
 .boutton-contactez-moi{
-    color : antiquewhite ;
     background-color : #70A0AF ;
     border-radius : 25px ;
 
 }
 
+#images-caroussel {
+    height: 500px;
+}
 
 
+/* fin section acceuil */
 
 
 
@@ -277,6 +298,28 @@ footer {
 .frame_fb_insta p {
     font-size: 17px;
 }
+
+/* section produits */
+
+#section-article h4{
+    border-radius: 25px ;
+    background-color :#bc9cb0
+}
+
+
+
+#section-article a{
+    text-decoration: none;
+    color : black ;
+}
+
+#section-article h4:hover {
+    color: antiquewhite;
+}
+
+
+/* fin section produits */
+
 
 /* ajout mediaquerrie pour tel */
 @media screen and (max-width: 600px) {

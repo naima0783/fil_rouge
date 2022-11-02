@@ -8,33 +8,76 @@
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../style/cgu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 <body>
 
     <header>
-        <div class="overlay">
-            <div>
-                <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr"><img src="../Photo/logo_compte_2.png"
-                        id="logo_compte_hd" idalt="Instagram" class="logo_reseaux_hd"
-                        a="https://www.instagram.com/lesbobinesdebiche/?hl=fr"></a>
     
+        <div class="overlay">
+    
+            <div>
+                <a href="" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <img src="../Photo/logo_compte_2.png" id="logo_compte_hd" alt="hd_logo" class="logo_reseaux_hd">
+                </a>
             </div>
     
             <img src="../Photo/Logo header.png" alt="bobinesdebiches" id="logo-bobines_hd">
     
             <div>
-                <p id="suivez-moi">Suivez-moi </p>
+                <p id="suivez-moi">Suivez-Nous </p>
                 <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr" target="_blank">
-                    <img src="../Logo/instagram.png" alt="Instagram" class="logo_reseaux_hd"
-                        a="https://www.instagram.com/lesbobinesdebiche/?hl=fr"></a>
+                    <img src="../Logo/instagram.png" alt="Instagram" class="logo_reseaux_hd">
+                </a>
                 <a href="https://www.facebook.com/profile.php?id=100086089291571" target="_blank">
-                    <img src="../Logo/facebook.png" alt="facebook" class="logo_reseaux_hd"></a>
+                    <img src="../Logo/facebook.png" alt="facebook" class="logo_reseaux_hd">
+                </a>
+            </div>
+    
+        </div>
+    
+    
+        <!-- Modal -->
+    
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-5"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center" id="modal-header">
+                        <img src="../Logo/Pop_Up/logo_pop_up.png" alt="logo bobine de biches">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <form action="get">
+                            <h1 class="modal-title text-center p-1 fs-5 font-face" id="staticBackdropLabel">Connexion</h1>
+    
+                            <div class="form-group ">
+                                <label for="inputEmail4">Votre email :</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group ">
+                                <label for="inputPassword4">Mot de passe :</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                            </div>
+                            <div>
+                                <label for="Inscription">Pas de compte ? <a href="inscription.html">Inscrivez-vous
+                                        !</a></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer" id="modal-footer">
+                        <button type="button" class="btn btn-dark">Connexion</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div>
+    
+        <div id="myHeader">
             <nav role="navigation" class="menu_hd">
-                <a href="header.html">Accueil</a>
-                <a href="">Créations</a>
+                <a href="homepage.html">Accueil</a>
+                <a href="produits.html">Créations</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
@@ -60,14 +103,14 @@
     https://www.lesbobinesdebiche.fr/ se réserve le droit de modifier unilatéralement et à tout moment le contenu des
     présentes CGU. </p>
     
-    <p>Article 1 : Les mentions légales
-    
+    <h3 id="article1">Article 1 : Les mentions légales </h3>
+    <p>
     L’édition et la direction de la publication du site https://www.lesbobinesdebiche.com/ est assurée par Margaux, domicilié
-    Tourcoing. </p>
-   
+    Tourcoing. 
+    </p>
 
     
-    <p>ARTICLE 2 : Accès au site
+    <h3 id="article2">ARTICLE 2 : Accès au site</h3>
     
     Le site https://www.lesbobinesdebiche.fr/ permet à l'Utilisateur un accès gratuit aux services suivants :
     Le site internet propose les services suivants :
@@ -87,20 +130,20 @@
     https://www.lesbobinesdebiche.fr/. Dans ces cas, l’Utilisateur accepte ainsi ne pas tenir rigueur à l’éditeur de toute
     interruption ou suspension de service, même sans préavis.
     L'Utilisateur a la possibilité de contacter le site par messagerie électronique à l’adresse email de l’éditeur
-    communiqué à l’ARTICLE 1. </p>
+    communiqué à <a href="#article1" >’ARTICLE 1</a>. 
     
-   <p> ARTICLE 3 : Collecte des données
+   <h3 id="article3"> ARTICLE 3 : Collecte des données </h3>
     
     Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie
     privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés. Le site
     est déclaré à la CNIL sous le numéro.
     En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de
     rectification, de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit :
-    · par mail à l'adresse email </p>
+    · par mail à l'adresse email 
     
-  <p>  ARTICLE 4 : Propriété intellectuelle
+    <h3 id="article4" > ARTICLE 4 : Propriété intellectuelle </h3>
     
-    Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet d'une protection par
+    <p>Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet d'une protection par
     le Code de la propriété intellectuelle et plus particulièrement par le droit d'auteur.
     
     L'Utilisateur doit solliciter l'autorisation préalable du site pour toute reproduction, publication, copie des
@@ -112,9 +155,9 @@
     Il est rappelé conformément à l’article L122-5 du Code de propriété intellectuelle que l’Utilisateur qui reproduit,
     copie ou publie le contenu protégé doit citer l’auteur et sa source. </p>
     
- <p>   ARTICLE 5 : Responsabilité
+    <h3 id="article5" >   ARTICLE 5 : Responsabilité </h3>
     
-    Les sources des informations diffusées sur le site https://www.lesbobinesdebiche.fr/ sont réputées fiables mais le site
+    <p>Les sources des informations diffusées sur le site https://www.lesbobinesdebiche.fr/ sont réputées fiables mais le site
     ne garantit pas qu’il soit exempt de défauts, d’erreurs ou d’omissions.
     Les informations communiquées sont présentées à titre indicatif et général sans valeur contractuelle. Malgré des mises à
     jour régulières, le site https://www.lesbobinesdebiche.fr/ ne peut être tenu responsable de la modification des
@@ -129,15 +172,15 @@
     La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible et insurmontable d'un
     tiers.  </p>
     
-  <p>  ARTICLE 6 : Liens hypertextes
+    <h3 id="article6" > ARTICLE 6 : Liens hypertextes </h3>
     
-    Des liens hypertextes peuvent être présents sur le site. L’Utilisateur est informé qu’en cliquant sur ces liens, il
-    sortira du site https://www.lesbobinesdebiche.fr/. Ce dernier n’a pas de contrôle sur les pages web sur lesquelles
+    <p> liens hypertextes peuvent être présents sur le site. L’Utilisateur est informé qu’en cliquant sur ces liens, il
+    sortira du site <a href="//www.lesbobinesdebiche.fr/">//www.lesbobinesdebiche.fr/</a>. Ce dernier n’a pas de contrôle sur les pages web sur lesquelles
     aboutissent ces liens et ne saurait, en aucun cas, être responsable de leur contenu. </p>
     
-   <p> ARTICLE 7 : Cookies
+   <h3 id="article7">ARTICLE 7 : Cookies </h3>
     
-    L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son
+    <p>L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son
     logiciel de navigation.
     Les cookies sont de petits fichiers stockés temporairement sur le disque dur de l’ordinateur de l’Utilisateur par votre
     navigateur et qui sont nécessaires à l’utilisation du site https://www.lesbobinesdebiche.fr/. Les cookies ne contiennent
@@ -151,90 +194,104 @@
     L’Utilisateur pourra désactiver ces cookies par l’intermédiaire des paramètres figurant au sein de son logiciel de
     navigation.</p>
     
-    <p> ARTICLE 8 : Droit applicable et juridiction compétente
+    <h3 id="article8"> ARTICLE 8 : Droit applicable et juridiction compétente</h3>
     
-    La législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né entre les
+    <p> législation française s'applique au présent contrat. En cas d'absence de résolution amiable d'un litige né entre les
     parties, les tribunaux français seront seuls compétents pour en connaître.
     Pour toute question relative à l’application des présentes CGU, vous pouvez joindre l’éditeur aux coordonnées inscrites
-    à l’ARTICLE 1.
+    à <a href="#article1"> l’ARTICLE 1</a>.</p>
     
-    CGU réalisées sur http://legalplace.fr/</p> 
+    <p>CGU réalisées sur <a href="http://legalplace.fr/"> http://legalplace.fr/ </a></p> 
 </div>
-    <footer class="footer_categorie">
-    
-        <div id="reseaux_footer" class="block_footer">
-            <div id="Suivez_moi">
-                <p>Suivez-moi</p>
+
+<footer class="footer_categorie">
+
+    <div id="reseaux_footer" class="block_footer">
+        <div id="Suivez_moi">
+            <p>Suivez-Nous !</p>
+        </div>
+
+        <div id="insta" class="rsx">
+            <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr">
+                <img src="../images/insta.png" alt="Suivez Nous" class="logo">
+            </a>
+        </div>
+
+        <div id="fb" class="rsx">
+            <a href="https://www.facebook.com/creationmellemgx">
+                <img src="../images/fb.png" alt="Suivez Nous" class="logo">
+            </a>
+        </div>
+
+    </div>
+
+    <div id="remise_produits_footer" class="block_footer ">
+
+        <div id="main_propre" class="information_livraison">
+            <div id="logo_livraison_main" class="block_logo">
+                <img src="../images/livraison_main.png" alt="Livraison en main propre" class="logo">
             </div>
-    
-            <div id="insta" class="rsx">
-                <a href="https://www.instagram.com/lesbobinesdebiche/?hl=fr"> <img src="../images/insta.png"
-                        alt="Suivez Nous" class="logo"></a>
-            </div>
-    
-            <div id="fb" class="rsx">
-                <a href="https://www.facebook.com/creationmellemgx"> <img src="../images/fb.png" alt="Suivez Nous"
-                        class="logo"></a>
+            <div id="livraison_main" class="livraison1">
+                <p>En main propre dans le métropôle Lilloise</p>
             </div>
         </div>
-    
-        <div id="remise_produits_footer" class="block_footer ">
-    
-            <div id="main_propre" class="information_livraison">
-                <div id="logo_livraison_main" class="block_logo">
-                    <img src="../images/livraison_main.png" alt="Livraison en main propre" class="logo">
-                </div>
-                <div id="livraison_main" class="livraison1">
-                    <p>En main propre dans le métropôle Lilloise</p>
-                </div>
+
+        <div id="livraison" class="information_livraison">
+
+            <div id="logo_livraison" class="block_logo">
+                <img src="../images/livraison.png" alt="Livraison sur toute la France" class="logo">
             </div>
-    
-            <div id="livraison" class="information_livraison">
-                <div id="logo_livraison" class="block_logo"><img src="../images/livraison.png"
-                        alt="Livraison sur toute la France" class="logo"></div>
-    
-                <div id="livraison" class="livraison2">
-                    <p>Livraison possible en France</p>
-                </div>
-    
+            <div id="livraison" class="livraison2">
+                <p>Livraison possible en France</p>
             </div>
-    
+
         </div>
-    
-        <div id="information_footer" class="block_footer">
-    
-            <div id="cgu_footer" class="cgu-mail">
-                <div id="logo_cgu" class="block_logo">
-                    <img src="../images/cgu.png" alt="Condition d'utilisation" class="logo">
-                </div>
-                <div id="cgu">
-                    <p> <a href="cgu.html">Mentions légales et politique de confidentialité</p></a>
-                </div>
+
+    </div>
+
+    <div id="information_footer" class="block_footer">
+
+        <div id="cgu_footer" class="cgu-mail">
+
+            <div id="logo_cgu" class="block_logo">
+                <img src="../images/cgu.png" alt="Condition d'utilisation" class="logo">
             </div>
-    
-            <div id="mail_footer" class="cgu-mail">
-                <div id="logo_mail" class="block_logo">
-                    <img src="../images/mail.png" class="logo">
-                </div>
-                <div id="mail">
-                    <p> Lesbobinesdebiche@gmail.fr</p>
-                </div>
+
+            <div id="cgu">
+                <a href="cgu.html">
+                    <p>Mentions légales et politique de confidentialité</p>
+                </a>
             </div>
-    
         </div>
-    
-        <div id="logo_footer" class="block_footer logo_deseign align-center" media="screen and (max-width: 640px)">
-            <div id="footer_deseign_img" class="logo_deseign">
-                <img src="../images/logo.png" alt="Les bobines de biches" class="logo_principal">
+
+        <div id="mail_footer" class="cgu-mail">
+            <div id="logo_mail" class="block_logo">
+                <img src="../images/mail.png" class="logo">
             </div>
-    
-            <div id="footer_deseign_" class="logo_deseign">
-                <p>Logo design By Paul Landuyt</p>
+            <div id="mail">
+                <p> Lesbobinesdebiche@gmail.fr</p>
             </div>
-    
         </div>
-    
-    </footer>
+
+    </div>
+
+    <div id="logo_footer" class="block_footer logo_deseign align-center" media="screen and (max-width: 640px)">
+
+        <div id="footer_deseign_img" class="logo_deseign">
+            <img src="../images/logo.png" alt="Les bobines de biches" class="logo_principal">
+        </div>
+
+        <div id="footer_deseign_" class="logo_deseign">
+            <p>Logo design By Paul Landuyt</p>
+        </div>
+
+    </div>
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     
 </body>
 </html>

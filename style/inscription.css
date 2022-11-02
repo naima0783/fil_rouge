@@ -8,3 +8,14 @@ section{
     padding-right: 20%;
     background-color : #f8f0f0 ;
 }
+
+#titre{
+    font-family: typo;
+    text-align: center;
+}
+
+.boutton-inscrire{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
