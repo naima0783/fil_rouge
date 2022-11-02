@@ -82,7 +82,9 @@ nav>a:nth-child(2) {
 }
 
 
-
+#myHeader{
+    z-index: 2;
+}
 
 /*Fin Header*/
 
@@ -112,6 +114,7 @@ nav>a:nth-child(2) {
     padding-left: 9%;
     padding-right: 5%;
     padding-top: 5%;
+    z-index : 1 ;
 }
 .image_home{
     width: 80px;
