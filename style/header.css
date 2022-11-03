@@ -83,13 +83,20 @@ nav>a:nth-child(2) {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #bc9cb0;
+    background-color: white;
+    
+       
+}
+
+.sticky nav a {
+    color: #5a2328;
 }
 
 
-#myHeader {
+#myHeader, #nav-produit {
     z-index: 2;
 }
+
 
 /*Fin Header*/
 

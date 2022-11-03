@@ -19,7 +19,8 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 8%;
-}
+ }
+/* 
 #photo_atelier{
     justify-content: center;
     margin-left: 10%;
@@ -28,7 +29,7 @@
 #entete_creations{
     display: flex;
     flex-direction: row;
-}
+} */
 #style_atelier{
     background-color : #70a0afaf ;
     font-size: 40px;
@@ -45,14 +46,10 @@
 }
 
 #pageproduits_bg {
-    background-color : #BC9CB0 ;
 }
 
 .fiche_prod,.fiche_prod>img{
-    border-radius: 6%;
-    border: solid 1px #5a2328;
-    width:"152px"; 
-    height:"146px";
+   
     text-align: center;
     
 }
@@ -65,7 +62,6 @@
 }
 
 #list_doudou, #list_vetement,#list_encore{
-    background-color: #BC9CB0;
 }
 
 #list_doudou>.fiche_prod,#list_vetement>.fiche_prod,#list_encore>.fiche_prod{
