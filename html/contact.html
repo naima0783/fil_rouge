@@ -77,7 +77,7 @@
         </div>
     
         <div id="myHeader">
-            <nav role="navigation" class="menu_hd">
+            <nav role="navigation" class="menu_hd" id="myHeader">
                 <a href="homepage.html">Accueil</a>
                 <a href="produits.html">Créations</a>
                 <a href="contact.html">Contact</a>
@@ -195,8 +195,8 @@
                 </div>
 
                 <div class="boutton_envoie">
-                    <button type="submit" value="Envoi" class="btn btn-dark submit" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
+                    <button type="submit" value="Envoi" class="btn btn-dark " 
+                         data-bs-toggle="modal" data-bs-target="#messEnvoyer" onclick="mailing()">
                         Envoyer
                     </button>                
                 </div>
@@ -208,20 +208,22 @@
     
     
     <!-- Modal -->
-    <div class="modal fade bg-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="messEnvoyer" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-5"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Votre message a été envoyer</h1>
+            <div class="modal-content">
+                <div class="modal-header text-center" id="modal-header">
+                    <img src="../Logo/Pop_Up/logo_pop_up.png" alt="logo bobine de biches">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    Merci pour votre message.
-                    Margaux vous contactera. 
+                <div class="modal-body d-flex justify-content-center align-items-center">
+                    <h3>Message envoyer</h3>
+                    <p>Les bobines de biches vous recontacteront prochainement</p>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <div class="modal-footer" id="modal-footer">
                 </div>
             </div>
+        </div>
     </div>
     
     <footer class="footer_categorie">
@@ -303,6 +305,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    
+        <script>
+            window.onscroll = function () { myFunction() };
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+
+            var messObject = document.getElementById('object_demande').value ;
+            var emailBody = document.getElementById('message').value ;
+            // Le code de base pour le mail
+            // "mailto:" + emailTo + '?cc=' + emailCC + '&subject=' + emailSub + '&body=' + emailBody;
+
+            function mailing() {
+                window.open("mailto:Lesbobinesdebiche@gmail.com?&subject="+messObject+"&body="+emailBody );
+            }
+        </script>
+
+
 </body>
 
 

@@ -78,6 +78,19 @@ nav>a:nth-child(2) {
     color: #5a2328;
     text-decoration: none;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #bc9cb0;
+}
+
+
+#myHeader {
+    z-index: 2;
+}
+
 /*Fin Header*/
 
 /* Modal */
