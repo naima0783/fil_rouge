@@ -102,10 +102,9 @@ nav>a:nth-child(2) {
 #titre_creation-acceuil{
     background-color :#70A0AF ;
     font-size: 40px;
-        border-radius: 25px;
-        font-family: typo;
-        
-        
+    border-radius: 25px;
+    font-family: typo;
+    padding: 10px;         
 }
 
 
@@ -157,12 +156,9 @@ nav>a:nth-child(2) {
 }
 
 .story_titre h3{
-    background-color : #70a0afaf ;
+    background-color : #70A0AF;
     font-size: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 25px;
-    padding: 1%; ;
+    border-radius: 25px;   
     }
 
 
@@ -183,6 +179,34 @@ nav>a:nth-child(2) {
 }
 /* Fin section story */
 
+/* Section reseau socieaux */
+#fil_reseau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0%;
+
+}
+
+.frame_fb_insta div {
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.frame_fb_insta p {
+    font-size: 17px;
+}
+
+.text_homepage_reseau {
+    border-radius: 10%;
+    text-align: justify;
+    background-color: #70A0AF;
+    padding: 1%;
+}
 /* Section Commentaire*/
 
 #commentaires {
@@ -223,7 +247,31 @@ nav>a:nth-child(2) {
     padding-left: 5%;
 }
 /*fin commentaire */
+/* section produits */
 
+#section-article h4{
+    border-radius: 25px ;
+    background-color :#bc9cb0;
+    text-align: center;
+    
+}
+
+
+.text_homepage_produit{
+    text-align: center;
+}
+
+#section-article a{
+    text-decoration: none;
+    color : black ;
+}
+
+#section-article h4:hover {
+    color: antiquewhite;
+}
+
+
+/* fin section produits */
 /* Footer */
 footer {
     background-image: linear-gradient(135deg, #e1d5dd 10%, #bc9cb0 50%);
@@ -282,46 +330,8 @@ footer {
 }
 
 /* reseau sociaux */
-#fil_reseau {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-
-}
-
-.frame_fb_insta div {
-    display: flex;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.frame_fb_insta p {
-    font-size: 17px;
-}
-
-/* section produits */
-
-#section-article h4{
-    border-radius: 25px ;
-    background-color :#bc9cb0
-}
 
 
-
-#section-article a{
-    text-decoration: none;
-    color : black ;
-}
-
-#section-article h4:hover {
-    color: antiquewhite;
-}
-
-
-/* fin section produits */
 
 
 /* ajout mediaquerrie pour tel */
