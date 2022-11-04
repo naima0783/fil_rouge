@@ -50,6 +50,19 @@
 }
 
 
+#section_doudou, #section_autres, #section_acc, #section_vet{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#section_acc>h3, #section_doudou>h3, #section_autres>h3, #section_vet>h3{
+    margin-bottom: 4%;
+    background-color:#d1b9c879 ;
+    
+}
+
+
+
 
 .fiche_prod,.fiche_prod>img{
    
@@ -66,16 +79,19 @@
 
 
 
-.fiche_prod,#list_vetement>.fiche_prod,#list_encore>.fiche_prod{
-    background-color: #e1d5dd;
+.fiche_prod, #list_vetement>.fiche_prod, #list_encore>.fiche_prod{
+    background-color: #BC9CB0;
+        border-radius: 7%;
 }
 
 #list_acces>.fiche_prod, #list_autres>.fiche_prod{
     background-color: #BC9CB0;
+        border-radius: 7%;
 }
 
 .titre_foncé, .titre_clair{
-    background-color: #BC9CB0;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+    color:#5a2328;
     margin: 0;
     font-size: 40px;  
     text-align: center;  
@@ -89,17 +105,30 @@
     text-decoration: none;
     list-style-type: none;
     color : #5a2328 ;
-    
-}
+}  
+/* }
 #list_autres{
     overflow-x: auto;
         scroll-snap-type: x mandatory;
     padding-left: 3%;
-}
+} */
 #list_autres>.fiche_prod {
     margin-left: 2%;
     margin-right: 2%;
-    scroll-margin-left: 3%;
-    scroll-margin-right: 3%;
+    margin-bottom: 1%;
+    border-radius : 7% ;
+    /* scroll-margin-left: 3%;
+    scroll-margin-right: 3%; */
 }
+
+img{
+    border-top : 5% ;
+}
+
+#list_autres{
+    display:flex ;
+    flex-wrap: wrap;
+
+}
+
 

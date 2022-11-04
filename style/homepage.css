@@ -115,7 +115,6 @@ div>nav>a:hover {
 }
 
 
-
 .photo_margaux{
     padding-left: 9%;
     padding-right: 5%;
@@ -126,6 +125,9 @@ div>nav>a:hover {
     width: 80px;
     height: 50px;
 }
+
+#zoom-acceuil img:hover {
+-webkit-transform: scale(1.25);}
 
 .boutton-contactez-moi:hover{
         color: antiquewhite;
@@ -161,6 +163,7 @@ box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rg
 .story_titre{
     text-align: center;
 }
+
 
 .story_titre h3{
     color: #5c8d9c;
