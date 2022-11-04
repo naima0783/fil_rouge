@@ -8,10 +8,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 #creations{
     font-family: typo;
-    background-color: #e1d5dd;
 }
+
 
 
 #text_mon_atelier{
@@ -31,22 +32,24 @@
     flex-direction: row;
 } */
 #style_atelier{
-    background-color : #70a0afaf ;
-    font-size: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 25px;
-    padding: 1%; ;
-    width: 40%;
+    /* background-color : #70a0afaf ; */
+    color: #5c8d9c;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+    font-size: 50px;
+    padding: 0px;
+    /*padding-left: 5%;
+    /* padding-right: 5%; */
+    /* border-radius: 25px; */
+    /* padding: 1%; ; */ 
+    /* width: 40%; */
     text-align: center;
-    margin-left: 40%;
+    /* margin-left: 40%; */
 }
 .titre_foncé>h3{
     margin-left: 10%;
 }
 
-#pageproduits_bg {
-}
+
 
 .fiche_prod,.fiche_prod>img{
    
@@ -54,15 +57,15 @@
     
 }
 
-#list_doudou, #list_acces, #list_vetement, #list_autres,#list_encore {
+#list_doudou, #list_acces, #list_vetement, #list_autres {
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
+    overflow-x: auto;
     padding: 20px
 }
 
-#list_doudou, #list_vetement,#list_encore{
-}
+
 
 #list_doudou>.fiche_prod,#list_vetement>.fiche_prod,#list_encore>.fiche_prod{
     background-color: #e1d5dd;
@@ -78,3 +81,15 @@
     font-size: 40px;  
     text-align: center;  
 }
+
+#nav-produit{
+    background-color : #e2d5dd ;
+}
+
+#nav-produit li, #nav-produit a {
+    text-decoration: none;
+    list-style-type: none;
+    color : #5a2328 ;
+    
+}
+

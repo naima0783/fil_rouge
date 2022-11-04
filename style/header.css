@@ -1,17 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: typo;
     src: url(../assets/fonts/Typo_Round_Light_Demo.otf);
 }
-* {
+body {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 /* header */
@@ -60,9 +53,7 @@ header {
     font-weight: bolder;
     font-family: typo;
     margin-top: 0%;
-    border: 1px solid #5a2328;
-    border-left: none;
-    border-right: none;
+
 
 }
 
@@ -79,7 +70,7 @@ nav>a:nth-child(2) {
     text-decoration: none;
 }
 
-.sticky {
+.sticky , .sticky1{
     position: fixed;
     top: 0;
     width: 100%;
@@ -88,8 +79,13 @@ nav>a:nth-child(2) {
        
 }
 
-.sticky nav a {
+.sticky nav a , .sticky1 nav a {
     color: #5a2328;
+}
+
+.sticky1, #nav-produit{
+    font-size: 19px;
+    margin: 0px;
 }
 
 
@@ -105,186 +101,3 @@ nav>a:nth-child(2) {
 #modal-header, #modal-footer{
     background-color : #bc9cb0 ;
 }
-
-/* section story */
-#acceuil_story{
-    display: flex;
-    padding-top: 2% ;
-    padding-bottom: 2%;
-}
-
-.story_qui_suis_je{
-    width: 50%;
-    font-family: typo;
-}
-
-.story_titre{
-    text-align: center;
-}
-
-.story_titre h3{
-    background-color : #70a0afaf ;
-    font-size: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 25px;
-    padding: 1%; ;
-    }
-
-
-.story_text p {
-    font-size:  14px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10px;
-}
-
-.story_biche_img{
-    width: 50%;
-}
-
-#acceuil_story img{
-    width: 100%;
-    height: 100%;
-}
-/* Fin section commentaire */
-
-/* Section Commentaire*/
-
-#commentaires {
-    display: flex ;
-    background-image: linear-gradient(135deg, #e1d5dd 10%, #bc9cb0 50%);
-}
-
-.firstphoto{
-    display: flex;
-    justify-content: space-around;
-    margin: 2%;
-    
-    border-radius: 6%;
-}
-
-.titre_retour{
-    text-align: center;
-    font-family: typo_round;
-    padding-bottom: 1%;
-    
-}
-
-.firstphoto>img{
-    border-radius: 6%;
-    border: solid 1px #5a2328;
-    width:"152px"; 
-    height:"146px";
-    
-}
-
-#commentaires p {
-    padding: 4%;
-    font-family: typo;
-    font-size: medium;
-}
-
-#firstcommentaires{
-    padding-left: 5%;
-}
-/*fin commentaire */
-
-/* Footer */
-footer {
-    background-image: linear-gradient(135deg, #e1d5dd 10%, #bc9cb0 50%);
-    position: relative;
-    width:100%;
-    bottom: 0px;
-    display: flex ;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: typo; 
-    padding: 15px;
-    
-}
-
- .logo{
-    height: 27px;
-    width: 27px;
-    border-radius: 0px;
-    padding: 2px;
-}
-
-.logo_deseign{
-    display: flex;
-    flex-direction: row;
-    padding: auto;
-}
-
-.rsx   {
-    display: inline;
-   
-
-}
-
-.align-center{
-    align-items: center;
-}
-
-.block_footer , a{
-    text-align: center;
-    color: antiquewhite;
-}
-
-
-#remise_produits_footer {
-    border-right: solid;
-    padding-right: 5% ;
-    padding-left: 5%;
-}
-
-#remise_produits_footer div, .cgu-mail{
-    display: flex;
-    flex-direction: row;
-}
-
-/* reseau sociaux */
-#fil_reseau {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-
-}
-
-.frame_fb_insta div {
-    display: flex;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.frame_fb_insta p {
-    font-size: 17px;
-}
-
-/* ajout mediaquerrie pour tel */
-@media screen and (max-width: 600px) {
-    body {
-        margin: 0%;
-        padding: 0%;
-    }
-
-    .story_biche_img{
-       visibility: hidden;
-                }
-    
-    .story_text{
-        width: 100%;
-        
-    }
-               
-    
-    #commentaire .second{
-        visibility: hidden;    }
-
-}
-
